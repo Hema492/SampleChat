@@ -25,6 +25,7 @@
 {
     [super viewDidLoad];
     [self getAllRegisteredUsers];
+    NSLog(@"added");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 - (XMPPStream *)xmppStream
